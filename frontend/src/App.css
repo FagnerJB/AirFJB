@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+*,::before,::after{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  min-height: 100%;
+}
+
+body{
+  background: #000 url('./assets/patryk-sobczak-SFrj-8plH2o-unsplash.jpg') no-repeat;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased
+}
+
+body, input, button{
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.container{
+  margin: 80px auto;
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content{
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 33px;
+  margin-top: 30px;
+}
+
+.content > p{
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.content form{
+  display: flex;
+  flex-direction: column;
+}
+
+.content form label{
+  font-size: inherit;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.content form label span{
+  font-weight: normal;
+  color: #999;
+  font-size: 14px;
+}
+
+.content form input{
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: inherit;
+}
+
+.content .btn{
+  border: 0;
+  border-radius: 2px;
+  width: 100%;
+  height: 42px;
+  padding: 0 20px;
+  font-size: inherit;
+  font-weight: bold;
+  background-color: #ff4500;
+  color: #fff;
+  cursor: pointer;
+}
+
+.content .btn:hover{
+  background-color: #ce3e09;
+}
